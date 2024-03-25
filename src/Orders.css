@@ -1,0 +1,54 @@
+.order-card {
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px 0;
+  width: 90%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+.order-card h2 {
+  font-size: 35px;
+  color: #333;
+}
+
+.order-card p {
+  font-size: 25px;
+  color: #666;
+}
+
+.order-card button {
+  float: right;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #333;
+  cursor: pointer;
+}
+
+.order-card button:hover {
+  background-color: #444;
+}
+.order-form {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.order-form input,
+.order-form select,
+.order-form button {
+  width: 100%;
+  box-sizing: border-box;
+}
+.order-card button.update-order {
+  margin-left: auto;
+}
